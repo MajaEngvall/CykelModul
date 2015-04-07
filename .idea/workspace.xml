@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4aea51a-d3a4-43fb-b7c8-e6642c384a9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing.html" afterPath="$PROJECT_DIR$/testing.html" />
     </list>
     <ignored path="CykelModul.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="testing.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15086207" vertical-offset="0" max-vertical-offset="696">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.1724138" vertical-offset="0" max-vertical-offset="696">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -237,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15086207" vertical-offset="0" max-vertical-offset="696">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.1724138" vertical-offset="0" max-vertical-offset="696">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
