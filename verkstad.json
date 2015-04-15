@@ -1,4 +1,4 @@
-    {
+    db.shop.insert({
         "verkstad": [{
                      "name":"Cykeltoppen",
                      "latitude":59.850525,
@@ -210,8 +210,6 @@
                      "address":"Salagatan 6\n753 30, Uppsala",
                      "website":"",
                      "email":""
-                     }]
-
-             }
+                     }]})
 
 
