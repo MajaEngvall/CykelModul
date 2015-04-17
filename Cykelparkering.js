@@ -106,4 +106,46 @@ var parkering = [{
     "latitude":59.853713,
     "longitude":17.647235,
     "description":"PLATSER:34"
+
+},{"name":"Kungsängsg. Skattemyndigheten",
+    "latitude":59.853547776915,
+    "longitude":17.6471019537837,
+    "description":"PLATSER:15"
+
+},{"name":"Samariterhemmet/Drag",
+    "latitude":59.8554950354501,
+    "longitude":17.6472650342009,
+    "description":"PLATSER:120"
+
+},{"name":"Hamnesplanaden Skatteverket",
+    "latitude":59.8539604191511,
+    "longitude":17.6464742489141,
+    "description":"PLATSER:5"
+
+},{"name":"Suttungsgränd",
+    "latitude":59.8567482394096,
+    "longitude":17.6490827860083,
+    "description":"PLATSER:8"
+
+},{"name":"Stureg./ Odeng.",
+    "latitude":59.8626855572919,
+    "longitude":17.6271533832816,
+    "description":"PLATSER:84"
+
+},{"name":"Kålsängsgränd / Dragarbrunnsgatan",
+    "latitude":59.8555468407932,
+    "longitude":17.6465972545411,
+    "description":"PLATSER:68"
+
+},{"name":"Resecentrum sydöstra",
+    "latitude":59.8576874727639,
+    "longitude":17.6471270113374,
+    "description":"PLATSER:775"
+
+},{"name":"Bredgränd/ Ö. Ågatan",
+    "latitude":59.8569957362815,
+    "longitude":17.6399610971679,
+    "description":"PLATSER:102"
 }];
+
+492
