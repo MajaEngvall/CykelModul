@@ -1,0 +1,25 @@
+/** torque_heat visualization */
+
+Map {
+    -torque-frame-count:32;
+    -torque-animation-duration:10;
+    -torque-time-attribute:"cartodb_id";
+    -torque-aggregation-function:"count(cartodb_id)";
+    -torque-resolution:8;
+    -torque-data-aggregation:linear;
+}
+
+#untitled_table{
+    image-filters: colorize-alpha(blue, cyan, lightgreen, yellow , orange, red);
+    marker-file: url(http://s3.amazonaws.com/com.cartodb.assets.static/alphamarker.png);
+    marker-fill-opacity: 1*[value];
+    marker-width: 34.5;
+}
+#untitled_table[frame-offset=1] {
+    marker-width:36.5;
+    marker-fill-opacity:0.5;
+}
+#untitled_table[frame-offset=2] {
+    marker-width:38.5;
+    marker-fill-opacity:0.25;
+}
