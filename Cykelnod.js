@@ -3,7 +3,7 @@
  */
 
 var cykelnoder = [{
-    "name":"Daghammarsköldsgatan 31",
+    "name":"Daghammarsköldsväg 31",
     "latitude":59.844146,
     "longitude":17.638019
 },{
