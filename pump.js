@@ -773,26 +773,6 @@ var pump = [{
         "address":"",
         "website":"",
         "email":""
-    },
-    {
-        "name":"Knivsta Kommunhus",
-        "latitude":59.726729,
-        "longitude":17.786966,
-        "description":"",
-        "timeOpen":
-        {
-            "monday":"",
-            "tuesday":"",
-            "wednesday":"",
-            "thursday":"",
-            "friday":"",
-            "saturday":"",
-            "sunday":""
-        },
-        "phoneNumber":"",
-        "address":"",
-        "website":"",
-        "email":""
     }];
 
 
@@ -916,7 +896,7 @@ function onloading(){
     initialize();
     createMarkerArray(pump, pumpMarker,'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png' );
     createMarkerArray(verkstad, verkstadMarker, 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png');
-    createMarkerArray(parkering, parkeringMarker, 'http://maps.google.com/mapfiles/ms/icons/green-dot.png');
+    createMarkerArray(parkering, parkeringMarker, 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png');
 
     var date = new Date();
     var day = date.getDay();
@@ -955,13 +935,13 @@ function createMarkerArray(data, list, markerColor) {
         var date = new Date();
         var day = date.getDay();
         var today = week[day];
-        var desc = today +': '+ data[1].timeOpen.friday;
+       // var desc = today +': '+ data[1].timeOpen.friday;
 
         google.maps.event.addListener(marker, 'click', (function (marker, i) {
             return function () {
 
                 infowindow.setContent('<header><b>'+data[i].name+'</b></header></br><p><b>Info: </b>'+data[i].description+
-                '</p></br><p><b>Telefon: </b> '+data[i].phoneNumber+ '</p></br><p>Öppet '+desc+'</p>');
+                '</p></br><p><b>Telefon: </b> '+ '</p></br><p>Öppet '+'</p>');
                 infowindow.open(map, marker);
             }
         })(marker, i));
