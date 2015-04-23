@@ -4,44 +4,105 @@
     <title>CykelWidget</title>
 
     <link rel="stylesheet" type="text/css" href="backoffice.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.6/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="    http://editor.datatables.net/media/css/dataTables.editor.min.css
+">
     <script src="jquery-1.11.2.min-1.js"></script>
     <script src="backoffice.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.6/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js"></script>
+    <script>"http://code.jquery.com/jquery-1.11.1.min.js"</script>
+    <script>"http://cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js"</script>
+    <script>"http://editor.datatables.net/media/js/dataTables.editor.min.js"</script>
     <meta charset="UTF-8">
 </head>
-<body ß>
-<div id="widget">
-    <div class="top">
-        <h4>Service shops</h4>
+
+<body>
+<button id="addRow" type="button">Lägg till rad</button>
+<div id="tablediv" ></div>
+
+<!--<div class="tabs">
+    <ul class="tab-links">
+        <li class="active"><a href="#tab1">Verkstad</a></li>
+        <li><a href="#tab2">Pump</a></li>
+        <li><a href="#tab3">Parkering</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="tab1" class="tab active">
+            <div id="tableBackOffice">
+
+
+                <div id="ServiceShopsContainer">
+                    <table id="ServiceChopsTable">
+                        <tbody>
+                        <tr class="header" id="1"> <td colspan="1">Verkstad 1</td> </tr>
+                        <tr class="header" id="2"> <td colspan="1">Verkstad 2</td> </tr>
+                        <tr class="header" id="3"> <td colspan="1">Verkstad 3</td> </tr>
+                        <tr class="header" id="4"> <td colspan="1">Verkstad 4</td> </tr>
+                        <tr class="header" id="5"> <td colspan="1">Verkstad 5</td> </tr>
+                        <tr class="header" id="6"> <td colspan="1">Verkstad 6</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Verkstad 7</td> </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="tab2" class="tab">
+            <div id="tableBackOffice">
+
+                <div id="ServiceShopsContainer">
+                    <table id="ServiceChopsTable">
+                        <tbody>
+                        <tr class="header" id="1"> <td colspan="1">Pump 1</td> </tr>
+                        <tr class="header" id="2"> <td colspan="1">Pump 2</td> </tr>
+                        <tr class="header" id="3"> <td colspan="1">Pump 3</td> </tr>
+                        <tr class="header" id="4"> <td colspan="1">Pump 4</td> </tr>
+                        <tr class="header" id="5"> <td colspan="1">Pump 5</td> </tr>
+                        <tr class="header" id="6"> <td colspan="1">Pump 6</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Pump 7</td> </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="tab3" class="tab">
+            <div id="tableBackOffice">
+
+                <div id="ServiceShopsContainer">
+                    <table id="ServiceChopsTable">
+                        <tbody>
+                        <tr class="header" id="1"> <td colspan="1">Parkering 1</td> </tr>
+                        <tr class="header" id="2"> <td colspan="1">Parkering 2</td> </tr>
+                        <tr class="header" id="3"> <td colspan="1">Parkering 3</td> </tr>
+                        <tr class="header" id="4"> <td colspan="1">Parkering 4</td> </tr>
+                        <tr class="header" id="5"> <td colspan="1">Parkering 5</td> </tr>
+                        <tr class="header" id="6"> <td colspan="1">Parkering 6</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Parkering 7</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Parkering 7</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Parkering 7</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Parkering 7</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Parkering 7</td> </tr>
+                        <tr class="header" id="7"> <td colspan="1">Parkering 7</td> </tr>
+
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+
     </div>
-    <div id="ServiceShopsContainer">
-        <table id="ServiceChopsTable">
-            <tbody>
-                <tr class="header" id="1"> <td colspan="1">Verkstad 1</td> </tr>
-                <tr class="child-1"> <td>Fålhagen</td> </tr>
-                <tr class="header" id="2"> <td colspan="1">Verkstad 1</td> </tr>
-                <tr class="header" id="3"> <td colspan="1">Verkstad 1</td> </tr>
-                <tr class="header" id="3"> <td colspan="1">Issue Reporting</td> </tr>
-                <tr class="child-3"> <td>Ongoing issues</td> </tr>
-                <tr class="child-3"> <td>Current events</td> </tr>
-                <tr class="child-3"> <td>Points of interest</td> </tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-                <tr class="header"><td> rad 1</td></tr>
-            </tbody>
-        </table>
-        <div id="table"></div>
-    </div>
-</div>
+</div>-->
+
 </body>
 </html>
